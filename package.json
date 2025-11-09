@@ -1,0 +1,13 @@
+{
+  "name": "aws-node-pm2-app",
+  "version": "1.0.0",
+  "description": "Node.js app deployed with AWS CodeDeploy and managed by PM2 (Ubuntu)",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
